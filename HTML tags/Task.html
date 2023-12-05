@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Basliq</title>
+    <style>
+        .myDiv 
+        {
+            border: 5px outset red;
+            background-color: lightblue;
+            text-align: center;
+        }
+        table, th, td 
+        {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Basliq1</h2>
+    <p>Qisa bir basliq1 yazisi</p>
+
+    <h2>Basliq2</h2>
+    adi yazi <br />sonra bosluq <br />sonra yazi
+
+    <h2>Basliq3</h2>
+    yazi sonra xett<hr />sonra yazi
+
+    <h2>Basliq4</h2>
+    <ol><li>1-ci sirada</li><li>2-ci sirada</li></ol>
+    <ul><li>bir</li><li>iki</li></ul>
+    <dl><dt>Yazi</dt><dd>onun menasi</dd></dl>
+
+    <h2>Basliq5</h2>
+    <dialog open>This is an open dialog window</dialog>
+    <figure>
+        <img src="https://cdn.britannica.com/54/75854-050-E27E66C0/Eiffel-Tower-Paris.jpg" alt="Trulli" width="200" height="400">
+        <figcaption>Fig.1 - Eiffel Tower, French.</figcaption>
+    </figure>
+
+    <h2>Basliq6</h2>
+    <div class="myDiv">
+        <h2>This is a heading in a div element</h2>
+        <p>This is some text in a div element.</p>
+    </div>
+
+    <h2>Basliq7</h2>
+    <a href="https://www.youtube.com" target="_blank">YouTube</a>
+
+    <h2>Basliq8</h2>
+    <b>this is bold text</b><br />
+    <p><bdo dir="rtl">This text will go right-to-left.</bdo></p>
+    <p><code>Hello World</code></p>
+    <p>You <em>must</em> do it!</p>
+    <p><strong>Warning:</strong> do not blink</p>
+    <small>Copright, 2018</small>
+    <q>Quoted text</q> <cite>— Author Name</cite>
+    <p>Price: <s>$10.00</s> $5.00</p>
+    <p>My favorite color is <del>red</del> <ins>blue</ins>!</p>
+    <p><abbr title="Amerika Birlesmis Statlari">ABS</abbr> 1776-a musteqil olub</p>
+    <aside>
+        <h4>Epcot Center</h4>
+        <p>
+            Epcot is a theme park at Walt Disney World
+        </p>
+    </aside>
+
+    <h2>Basliq9</h2>
+    <address>
+        Written by <a href="https://en.wikipedia.org/wiki/Donald_Trump" target="_blank">Donald Trump</a>.<br>
+        Visit us at: 2PM<br>
+        Workplace.com<br>
+        Box 564, Disneyland<br>
+        Azerbaijan
+    </address>
+
+    <h2>Basliq10</h2>
+    <p><strong>Warning:</strong> Scream voice. Reduce volume!</p>
+    <audio controls>
+        <source src="https://www.fesliyanstudios.com/play-mp3/5334" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <h2>Basliq11</h2>
+    <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/QdBZY2fkU-0?si=copHUkMxHgzcRNXp"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share"
+            allowfullscreen>
+    </iframe>
+
+    <h2>Basliq12</h2>
+    <button type="button" onclick="alert('SA')">don't click!</button>
+
+    <h2>Basliq13</h2>
+    <p>Kvadrat</p>
+    <canvas id="myCanvas" width="150" height="150" style="border:1px solid grey"></canvas>
+
+    <h2>Basliq14</h2>
+    <table>
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+    </table>
+
+    <h2>Basliq15</h2>
+    <label for="country">Choose your preferred country to live in:</label>
+    <input list="countrys" name="country" id="country">
+    <datalist id="countrys">
+        <option value="USA">
+        <option value="UK">
+        <option value="Germany">
+        <option value="France">
+        <option value="Spain">
+        <option value="Canada">
+        <option value="Sweden">
+    </datalist>
+
+    <h2>Basliq16</h2>
+    <details>
+        <summary>My daily routine</summary>
+        <p>
+            <ul>
+                <li>Wake up</li>
+                <li>Work</li>
+                <li>Eat</li>
+                <li>Sleep</li>
+                <li>Repeat</li>
+            </ul>
+        </p>
+    </details>
+
+    <h2>Basliq17</h2>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
