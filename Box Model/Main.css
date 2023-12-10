@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: inline-flex;
+}
+
+.left {
+    height: 305px;
+    width: 305px;
+}
+
+.middle {
+    height: 120px;
+    width: 230px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.right {
+    height: 305px;
+    width: 305px;
+}
+.left canvas{
+    height: 150px;
+    width: 150px;
+    border-width: 10px;
+    border-style: solid;
+}
+#green-circle {
+    border-radius: 50%;
+    border: 10px solid #003d1c;
+    background-color: #003d1c;
+}
+
+#quarter-circle {
+    border-radius: 0 0 0 300px;
+    border-color: #56c288;
+    background-color: #56c288;
+}
+
+#blue-square {
+    border-radius: 10%;
+    border-color: #6875ec;
+    background-color: #6875ec;
+}
+
+#grey-circle {
+    border-radius: 50%;
+    border-color: #ccd1d7;
+    background-color: #ccd1d7;
+}
+
+#youtube {
+    height: 120px;
+    width: 230px;
+    border: 10px solid #ff0101;
+    border-radius: 24%;
+    background-color: #ff0101;
+
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 35px solid white;
+    position: relative;
+    bottom: 95px;
+    left: 100px;
+}
+
+.right canvas{
+    border-width: 10px;
+    border-style: solid;
+}
+#yellow-half-cicrle {
+    width: 150px;
+    height: 85px;
+    border-radius: 150px 150px 10% 10%;
+    border-color: #f6b800;
+    background-color: #f6b800;
+}
+
+#red-half-cicrle {
+    width: 85px;
+    height: 150px;
+    border-radius: 10% 150px 150px 10%;
+    border-color: #e64132;
+    background-color: #e64132;
+}
+
+#green-half-cicrle {
+    width: 85px;
+    height: 150px;
+    border-radius: 150px 10% 10% 150px;
+    border-color: #31a452;
+    background-color: #31a452;
+    position: relative;
+    left: 65px;
+}
+
+#blue-half-cicrle {
+    width: 150px;
+    height: 85px;
+    border-radius:10% 10% 150px 150px;
+    border-color: #4081ef;
+    background-color: #4081ef;
+    position: relative;
+    bottom: 65px;
+    left: 65px;
+}
